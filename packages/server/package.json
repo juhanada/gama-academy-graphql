@@ -1,0 +1,35 @@
+{
+  "name": "@dev-demands/server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "dev demands server",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm .",
+    "start": "node -r esm ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "apollo-server": "^3.0.2",
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "apollo-link": "^1.2.14",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server-express": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "uuid": "^8.3.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "src/data/*"
+    ]
+  }
+}

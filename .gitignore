@@ -1,0 +1,27 @@
+/node_modules
+/packages/server/node_modules
+/packages/web/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/packages/web/node_modules
+/packages/web/.pnp
+packages/web/.pnp.js
+
+# testing
+/packages/web/coverage
+
+# production
+/packages/web/build
+
+# misc
+packages/web/.DS_Store
+packages/web/.env.local
+packages/web/.env.development.local
+packages/web/.env.test.local
+packages/web/.env.production.local
+
+packages/web/npm-debug.log*
+packages/web/yarn-debug.log*
+packages/web/yarn-error.log*
